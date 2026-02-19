@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WarrantyPing",
   "resources": {
-    "hash": "sha256-K1dMe0dXXwrEfgithmEqY1XMXjpHGWpkpUH+L5JKu2E=",
+    "hash": "sha256-xCIlwbip6qhHlDZcWB9QbYWE14w6vlJ9YYIm3hA7djk=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-4g0GzvOXSwZvTLca4PrWJkoeltz+V9IF/hEFDcnVros="
     },
@@ -50,11 +50,11 @@
       "System.Text.RegularExpressions.wasm": "sha256-EBNNP57+VS/OjAuJHOY1mCfaJCJQYORnhF3/w7wP5kI=",
       "System.Threading.wasm": "sha256-l5XpIoa2lwtOPt1p4IEBdJ8SrCCJWAveGmP0Ew5UqBg=",
       "System.Private.CoreLib.wasm": "sha256-wZ7LqYZ2rYcepZHcP7e/oKi8/wpy5k0BheKqZLplG3k=",
-      "WarrantyPing.wasm": "sha256-NxHnjzgR3y6+DHPaM70aupYB6YciTX2NDibiHgGA6u0="
+      "WarrantyPing.wasm": "sha256-sAP2CrtQ6CA/s6qf1QJneV0vobuvFsaWy/1+ajIm4L4="
     },
     "satelliteResources": {
       "de": {
-        "WarrantyPing.resources.wasm": "sha256-PFub1qNrIP7gnl2yhysb1vVmisaB5ZRZkMaYDD4pmVo="
+        "WarrantyPing.resources.wasm": "sha256-pXAj+hf1Vgr0G/thpcmdRLnIjx3PDjdvDXUy52k0mQI="
       }
     }
   },

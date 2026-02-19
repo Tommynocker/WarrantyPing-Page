@@ -7,9 +7,20 @@
     <title>WarrantyPing</title>
     <base href="/warrantyping-page/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="WarrantyPing.styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="WarrantyPing.styles.css" rel="stylesheet" />
+
+    <!-- SPA GitHub Pages: Pfad aus 404.html wiederherstellen -->
+    <script type="text/javascript">
+        (function () {
+            var redirect = sessionStorage.redirect;
+            delete sessionStorage.redirect;
+            if (redirect && redirect !== location.href) {
+                history.replaceState(null, null, redirect);
+            }
+        })();
+    </script>
 </head>
 
 <body>
