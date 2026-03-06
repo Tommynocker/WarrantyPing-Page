@@ -21,7 +21,17 @@
                     .map(function (s) { return s.replace(/~and~/g, '&'); })
                     .join('?');
 
-                window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+                // Robust gegen Pfade mit/ohne trailing slash (z.B. /privacy/)
+                if (decoded.length > 1 && decoded.endsWith('/')) {
+                    decoded = decoded.slice(0, -1);
+                }
+
+                var basePath = l.pathname;
+                if (basePath.endsWith('/')) {
+                    basePath = basePath.slice(0, -1);
+                }
+
+                window.history.replaceState(null, null, basePath + decoded + l.hash);
             }
         }(window.location));
     </script>
